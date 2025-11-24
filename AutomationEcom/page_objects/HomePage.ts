@@ -1,6 +1,6 @@
 import { Page, Locator } from '@playwright/test';
 
-export class Home {
+export class HomePage {
   private readonly page: Page;
   private readonly map: HomeMap;
 
