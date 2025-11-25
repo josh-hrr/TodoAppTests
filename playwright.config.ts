@@ -68,7 +68,7 @@ export default defineConfig({
       testDir: './AutomationEcom/tests',
       use: {
         baseURL: 'https://automationexercise.com',
-        headless: false,
+        headless: true,
         launchOptions: {
           slowMo: 1000,
         },
