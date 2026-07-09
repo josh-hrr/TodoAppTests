@@ -1,0 +1,12 @@
+name: Node JS workflow
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  myJob1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'echoingTest'
+        run: echo "this is a test!"
