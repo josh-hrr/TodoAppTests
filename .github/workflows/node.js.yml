@@ -1,4 +1,4 @@
-name: Node JS workflow
+name: Node JS workflow1
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 
 concurrency:
   group: ci-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: true 
 
 jobs:
   myJob1:
